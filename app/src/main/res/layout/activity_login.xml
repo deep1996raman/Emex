@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    tools:context="com.example.android.emex.LoginActivity">
+
+<ImageView
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:src="@drawable/background_2"
+    android:id="@+id/background2"/>
+ <ImageView
+     android:layout_width="match_parent"
+     android:layout_height="wrap_content"
+     android:src="@drawable/logo"
+     android:layout_marginTop="@dimen/loginMargin"
+     android:layout_marginBottom="@dimen/marginGap"
+     android:id="@+id/loginlogo"
+     />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/loginlogo"
+        android:drawableLeft="@drawable/icon_email"
+        android:id="@+id/etemailAddress"
+        android:hint="  Email address"
+        android:layout_marginLeft="@dimen/btnMargin"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/etemailAddress"
+        android:drawableLeft="@drawable/icon_password"
+        android:hint="  Password"
+        android:id="@+id/password"
+        android:layout_marginLeft="@dimen/btnMargin"
+        />
+    <Button
+        style="@style/button2Design"
+        android:id="@+id/login"
+        android:layout_centerHorizontal="true"
+        android:text="@string/login"
+        android:layout_marginTop="@dimen/bottomButtonMargin"
+        android:layout_width="match_parent"
+        android:layout_below="@+id/password"
+        android:layout_marginLeft="@dimen/btnMargin"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/login"
+        android:text="@string/forgotpass"
+        android:layout_centerHorizontal="true"
+        android:textColor="@color/colorPrimary"
+        android:textStyle="bold"
+        android:layout_marginTop="@dimen/marginGap"
+        android:id="@+id/forgotpass"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/account"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:textColor="@color/colorPrimary"
+         android:id="@+id/signup"
+        />
+
+</RelativeLayout>

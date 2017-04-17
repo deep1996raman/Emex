@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="bottomButtonMargin">20dp</dimen>
+    <dimen name="bottomMargin">12dp</dimen>
+    <dimen name="btnMargin">33dp</dimen>
+    <dimen name="btnWidth">292dp</dimen>
+    <dimen name="btnHeight">45dp</dimen>
+    <dimen name="placeHolderWidth">90dp</dimen>
+    <dimen name="placeHolderHeight">90dp</dimen>
+    <dimen name="sideMarginePlaceholder">135dp</dimen>
+    <dimen name="marginsPlaceholder">20dp</dimen>
+    <dimen name="marginLayout">25dp</dimen>
+    <dimen name="loginMargin">50dp</dimen>
+    <dimen name="marginGap">8dp</dimen>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <dimen name="nav_header_vertical_spacing">16dp</dimen>
+    <dimen name="nav_header_height">160dp</dimen>
+    <dimen name="fab_margin">16dp</dimen>
+
+    <dimen name="font_small">10sp</dimen>
+    <dimen name="font_normal">12sp</dimen>
+    <dimen name="font_medium">14sp</dimen>
+    <dimen name="font_large">16sp</dimen>
+    <dimen name="font_xlarge">20sp</dimen>
+    <dimen name="font_xxlarge">24sp</dimen>
+
+    <dimen name="margin_small">5dp</dimen>
+    <dimen name="margin_normal">10dp</dimen>
+    <dimen name="margin_medium">15dp</dimen>
+    <dimen name="margin_large">20dp</dimen>
+    <dimen name="margin_xlarge">25dp</dimen>
+
+    <dimen name="padding_small">5dp</dimen>
+    <dimen name="padding_normal">10dp</dimen>
+    <dimen name="padding_medium">15dp</dimen>
+    <dimen name="padding_large">20dp</dimen>
+    <dimen name="padding_xlarge">25dp</dimen>
+</resources>

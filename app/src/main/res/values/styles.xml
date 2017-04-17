@@ -1,0 +1,53 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <style name="buttonDesign">
+        <item name="android:layout_marginLeft">@dimen/btnMargin</item>
+        <item name="android:layout_marginRight">@dimen/btnMargin</item>
+        <item name="android:layout_height">@dimen/btnHeight</item>
+        <item name="android:layout_width">@dimen/btnWidth</item>
+        <item name="android:background">@color/colorPrimary</item>
+        <item name="android:textColor">#ffffff</item>
+        <item name="android:textAllCaps">false</item>
+
+    </style>
+
+    <style name="button2Design">
+        <item name="android:layout_height">@dimen/btnHeight</item>
+        <item name="android:layout_width">@dimen/btnWidth</item>
+        <item name="android:background">@color/colorPrimary</item>
+        <item name="android:textColor">#ffffff</item>
+        <item name="android:textAllCaps">false</item>
+
+    </style>
+
+    <style name="placeHolderDesign">
+        <item name="android:layout_height">@dimen/placeHolderHeight</item>
+        <item name="android:layout_width">@dimen/placeHolderWidth</item>
+        <item name="android:layout_marginTop">@dimen/marginsPlaceholder</item>
+        <item name="android:layout_marginBottom">@dimen/marginsPlaceholder</item>
+    </style>
+    <style name="textview">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textSize">@dimen/font_large</item>
+        <item name="android:padding">@dimen/padding_small</item>
+    </style>
+
+    <style name="AppTheme.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+    <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+
+</resources>

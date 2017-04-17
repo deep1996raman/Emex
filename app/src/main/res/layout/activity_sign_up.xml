@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.android.emex.SignUpActivity"
+    >
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+ <LinearLayout
+     android:layout_width="match_parent"
+     android:layout_height="wrap_content"
+     android:orientation="vertical"
+     android:layout_marginLeft="@dimen/marginLayout"
+     android:layout_marginRight="@dimen/marginLayout">
+
+    <ImageView
+
+        android:src="@drawable/user_placeholder"
+        style="@style/placeHolderDesign"
+        android:layout_gravity="center_horizontal"
+        />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"     >
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight=".5"
+            android:drawableLeft="@drawable/icon_name"
+            android:id="@+id/etfirstName"
+            android:hint="  First name"
+            />
+        <View
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="0.01"
+            android:background="@color/colorBackground"
+            ></View>
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight=".5"
+            android:drawableLeft="@drawable/icon_name"
+            android:hint="  Last Name"
+            android:id="@+id/etlastName"/>
+
+
+    </LinearLayout>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:drawableLeft="@drawable/icon_contact"
+        android:hint="  Contact Number"
+        />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:drawableLeft="@drawable/icon_name"
+        android:hint="  Contact Name"
+        />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:drawableLeft="@drawable/icon_email"
+        android:hint="  Email address"
+        android:id="@+id/etemailAddress"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:drawableLeft="@drawable/icon_password"
+        android:hint=" Password"
+        android:id="@+id/etpassword"
+        android:inputType="textPassword"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:drawableLeft="@drawable/icon_password"
+        android:hint=" Confirm Password"
+        android:inputType="textPassword"
+        />
+    <CheckBox
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:button="@drawable/checkbox"
+        android:text="@string/checkboxText"
+        android:paddingLeft="10dp"
+        android:layout_marginTop="@dimen/bottomMargin"
+        />
+    <Button
+        style="@style/button2Design"
+        android:id="@+id/login"
+        android:layout_centerHorizontal="true"
+        android:text="@string/signup"
+        android:layout_marginTop="@dimen/bottomButtonMargin"
+        android:layout_width="match_parent"
+        android:layout_marginBottom="@dimen/bottomButtonMargin"
+        />
+</LinearLayout>
+    </ScrollView>
+</LinearLayout>

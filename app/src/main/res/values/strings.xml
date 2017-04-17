@@ -1,0 +1,24 @@
+<resources>
+    <string name="app_name">Emex</string>
+    <string name="login">Login</string>
+    <string name="signup">Signup</string>
+    <string name="checkboxText">  I accept <b><u>Terms of Service</u></b> and <b><u>Privacy Policy</u></b> </string>
+    <string name="forgotpass">Forgot Password</string>
+    <string name="account">Dont have an account ? <b>Sign up</b></string>
+    <string name="edit">Edit Profile</string>
+    <string name="title_activity_home">HomeActivity</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+    <string name="date_time">14 April,2017  1:30</string>
+    <string name="distance">5.6 km</string>
+    <string name="pickup_address">3846 W 38 Rd, Shiv Srishti Marg
+<n>Mumbai</n></string>
+    <string name="destination">Silver Oks Hospital, Laxmi Nagar,
+Mumbai</string>
+<string name="ride_time">Ride Time: 20 min</string>
+    <string name="total">Total Payable Amount</string>
+    <string name="google_maps_api_key">AIzaSyBl7UG8bhxAuY5QWiekbc2qdk4YnKp23Vc</string>
+</resources>

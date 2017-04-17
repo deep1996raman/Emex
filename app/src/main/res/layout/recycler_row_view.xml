@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:layout_margin="@dimen/margin_medium">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:weightSum="1">
+
+<TextView
+    style="@style/textview"
+    android:layout_width="0dp"
+    android:layout_weight="0.80"
+    android:text="@string/date_time"
+    android:paddingLeft="@dimen/padding_small"
+    android:id="@+id/date_time"
+    />
+<TextView
+    style="@style/textview"
+    android:text="@string/distance"
+    android:layout_weight="0.20"
+    android:layout_width="0dp"
+    />
+    </LinearLayout>
+
+    <TextView
+        style="@style/textview"
+        android:textColor="@color/drawer_user_color"
+        android:id="@+id/tvdriver_name"
+        android:text="Driver name:"
+        />
+<TextView
+    style="@style/textview"
+    android:drawableLeft="@drawable/green_dot"
+    android:text="@string/pickup_address"
+    android:drawablePadding="@dimen/padding_small"
+android:textSize="@dimen/font_large"
+    />
+    <TextView
+        style="@style/textview"
+        android:drawableLeft="@drawable/red_dot"
+        android:text="@string/destination"
+        android:textSize="@dimen/font_large"
+        android:drawablePadding="@dimen/padding_small"/>
+    <TextView
+        style="@style/textview"
+        android:text="@string/ride_time"
+        />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:weightSum="1">
+
+        <TextView
+            style="@style/textview"
+            android:layout_width="0dp"
+            android:layout_weight="0.80"
+            android:text="@string/total"
+            android:paddingLeft="@dimen/padding_small"
+            />
+        <TextView
+            style="@style/textview"
+            android:text="Rs 1850"
+            android:layout_weight="0.20"
+            android:layout_width="0dp"
+            />
+    </LinearLayout>
+
+</LinearLayout>
